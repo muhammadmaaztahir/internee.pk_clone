@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+.navbar {
+	padding: 15px 0;
+}
+.custom-btn {
+	background: #8c52fe;
+	border: 2px solid transparent;
+	border-radius: 2rem;
+	color: white !important;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	padding: 15px 20px;
+	padding: 8px 20px !important;
+}
+.custom-btn:hover {
+	background: #8c52fe !important;
+	color: white !important;
+}
+.nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: #717275;
+	text-decoration: none;
+	font-size: 18px;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.nav-link:active,.nav-link:hover,.nav-link:focus {
+	color: #8c52fe;
+	transition: 0.2s ease-in-out;
+}
+.logo-image {
+	display: block;
+	width: 65px;
+	margin-right: 15px;
+}
+.logo-text {
+	color: #43a724;
+	font-size: 32px;
+	display: block;
+	line-height: normal;
+}
+.logo-slogan {
+	color: #8c52fe;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.myNav>.nav-item:last-child {
+	margin-left: 80px !important;
+}
+.heroSection {
+	background-image: url('../Images/close-up-young-business-team-working.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	padding-top: 170px;
+	padding-bottom: 170px;
+}
+.overlay {
+	background: #376828;
+	opacity: 0.85;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.heroSection .container {
+	position: relative;
+}
+.heroSectionElements>h1 {
+	font-size: 62px;
+	font-weight: 700;
+}
+.heroSectionElements>p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.heroSectionElements>p>a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(208, 228, 255);
+}
+#styling {
+	border: 2px solid white;
+	background: transparent;
+	margin-top: 10px;
+}
+.founder {
+	background-image: url('../Images/founder.jpg');
+	border-radius: 2rem 0 0 2rem;
+}
+.founder,.cmo {
+	width: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+}
+.cmo {
+	background-image: url('../Images/rayyan.jpg');
+	border-radius: 0 2rem 2rem 0;
+}
+.founderDetailsMiddle {
+	background-color: #8c52fe;
+	width: 100%;
+	padding: 80px 0;
+}
+.founderDetailsMiddle h1 {
+	font-size: 36px;
+	font-weight: 700;
+}
+.founderDetailsMiddle p {
+	font-size: 19px;
+	font-weight: 300;
+}
+.founderDetailsButtons a {
+	font-size: 14px;
+}
+.founderDetailsButtons a:hover {
+	background-color: white !important;
+	color: #8c52fe !important;
+}
+.founderDetailsButtons a:nth-child(2) {
+	border: none !important;
+	border-radius: 0 !important;
+}
+.founderDetailsButtons a:nth-child(2):hover {
+	color: white !important;
+	background-color: #8c52fe !important;
+}
+.founderDetailsButtons a:nth-child(2) {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+}
+.founderDetailsButtons a:nth-child(2)::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #ffffff;
+	transition: width .3s;
+}
+.founderDetailsButtons a:nth-child(2):hover::after {
+	width: 100%;
+}
+.categoryDetails {
+	margin: 40px auto;
+}
+.categoryDetails h1,.recentInternships h1 {
+	font-weight: 700;
+	font-size: 40px;
+}
+.underCategoryDetails {
+	background: #43a724;
+	border-radius: 100px;
+	border: 8px solid #8c52fe;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	margin-bottom: 24px;
+	text-align: center;
+	position: relative;
+	padding: 10px;
+}
+.underCategoryDetails:hover {
+	border: 8px solid white;
+	transition: all 0.5s;
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.204);
+}
+.underCategoryDetails a {
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+.categories-block-number {
+	background: #8c52fe;
+	border-radius: 100px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+.categories-block-number-text {
+	color: white;
+	display: block;
+	position: relative;
+	left: 2px;
+	font-weight: 600;
+	font-size: 16px;
+}
+.categoryDetailsContainer {
+	width: 91%;
+}
+.categoryLogo {
+	width: 30px;
+	margin-bottom: 15px;
+}
+.internshipDetails {
+	width: 100% !important;
+	padding: 3rem;
+}
+.internshipDetailsLeft {
+	border-radius: 2rem 0 0 2rem;
+	padding: 90px 60px !important;
+	background-color: #43a724;
+}
+.internshipDetailsLeft h1 {
+	font-size: 38px;
+	line-height: 3.5rem;
+}
+.internshipDetailsRight {
+	border-radius: 0 2rem 2rem 0;
+	background-image: url('../Images/people-working-as-team-company.jpg');
+	background-size: cover;
+}
+.counterText {
+	font-size: 56px;
+	font-weight: 500;
+	line-height: normal;
+}
+.recentInternships p {
+	font-size: 17px;
+	width: 50%;
+	color: #717275;
+	margin-top: 15px;
+}
+.recentInternships p span {
+	font-weight: 700;
+}
+.internshipCard {
+	cursor: pointer;
+	transition: all 0.4s ease-out;
+}
+.internshipCard:hover {
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.192);
+}
+.interneeReviews {
+	background-color: #f0f8ff;
+	width: 100%;
+	padding: 10px 0;
+	margin-top: 60px;
+}
+.profilePhoto img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	object-position: 100% 60%;
+	border-radius: 50%;
+}
+.rate {
+	float: left;
+	height: 46px;
+	padding: 0 10px;
+}
+.rate>input {
+	position: absolute;
+	top: -9999px;
+}
+.rate>label {
+	float: right;
+	width: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 30px;
+	color: #8c52fe;
+}
+.rate>label:before {
+	content: '★ ';
+}
+.cta-section {
+	background-image: url('../images/millennial-group-young-businesspeople.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 75px;
+}
+.section-overlay {
+	background: rgba(0, 0, 0, 0.85);
+	background: #8c52fe;
+	opacity: 0.85;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	width: 100%;
+	height: 100%;
+}
+.footerContactDetails span a {
+	text-decoration: none;
+	color: #717275;
+	font-size: 17px;
+}
+.footerContactDetails span a:hover {
+	color: #8c52fe;
+	transition: all 0.1s ease-in-out;
+}
+.footerMenu ul {
+	width: 100%;
+	text-align: left;
+}
+.footerMenu>div>span>a {
+	color: #717275;
+}
+.footerMenu>div>span>a:hover {
+	color: #8c52fe;
+	transition: all 0.2s ease-in-out;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper .content {
+	background: #f0f8ff;
+	padding: 40px;
+	width: 100%;
+	max-width: 500px;
+	min-width: 200px;
+	border-radius: 10px;
+	text-align: left;
+}
+.wrapper .content header h1 {
+	font-size: 230%;
+	margin-top: 0;
+}
+.wrapper .content section {
+	color: #929DA6;
+	font-size: 15px;
+}
+.wrapper .content footer {
+	padding: 8px 8px 8px 15px;
+	border: unset;
+	background-color: #ffffff;
+	font-size: 13px;
+	border-radius: 50px;
+	width: 100%;
+}
+.wrapper .content footer input {
+	border: unset;
+	background-color: transparent;
+	font-size: 13px;
+	border-radius: 50px;
+}
+.wrapper .content footer button {
+	background-color: #43a724;
+	color: #fff;
+	border: unset;
+	border-radius: 50px;
+	padding: 7px;
+	cursor: pointer;
+}
+.wrapper .content footer button:hover {
+	background-color: #8c52fe;
+	transition: all 0.2s ease-in-out;
+}
+.wrapper .content footer input:focus,.wrapper .content footer button:focus {
+	outline: none;
+}
+footer {
+	background-color: #43a724;
+}
+textarea {
+	resize: none;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	white-space: nowrap;
+}
+.svg-inline--fa {
+	vertical-align: -0.200em;
+}
+.rounded-social-buttons {
+	text-align: center;
+}
+.rounded-social-buttons .social-button {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 2.0rem;
+	height: 2.0rem;
+	border: 0.125rem solid transparent;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
+	color: #fefefe;
+	font-size: 1.5625rem;
+	font-weight: normal;
+	line-height: 2em;
+	border-radius: 1.6875rem;
+	transition: all 0.5s ease;
+	margin-right: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.rounded-social-buttons .social-button:hover,.rounded-social-buttons .social-button:focus {
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.rounded-social-buttons .fa-twitter,.fa-facebook-f,.fa-linkedin,.fa-tiktok,.fa-youtube,.fa-instagram {
+	font-size: 17px;
+}
+.rounded-social-buttons .social-button.facebook {
+	background: #3b5998;
+}
+.rounded-social-buttons .social-button.facebook:hover,.rounded-social-buttons .social-button.facebook:focus {
+	color: #3b5998;
+	background: #fefefe;
+	border-color: #3b5998;
+}
+.rounded-social-buttons .social-button.twitter {
+	background: #55acee;
+}
+.rounded-social-buttons .social-button.twitter:hover,.rounded-social-buttons .social-button.twitter:focus {
+	color: #55acee;
+	background: #fefefe;
+	border-color: #55acee;
+}
+.rounded-social-buttons .social-button.linkedin {
+	background: #007bb5;
+}
+.rounded-social-buttons .social-button.linkedin:hover,.rounded-social-buttons .social-button.linkedin:focus {
+	color: #007bb5;
+	background: #fefefe;
+	border-color: #007bb5;
+}
+.rounded-social-buttons .social-button.tiktok {
+	background: #000000;
+}
+.rounded-social-buttons .social-button.tiktok:hover,.rounded-social-buttons .social-button.tiktok:focus {
+	color: #000000;
+	background: #fefefe;
+	border-color: #000000;
+}
+.rounded-social-buttons .social-button.youtube {
+	background: #bb0000;
+}
+.rounded-social-buttons .social-button.youtube:hover,.rounded-social-buttons .social-button.youtube:focus {
+	color: #bb0000;
+	background: #fefefe;
+	border-color: #bb0000;
+}
+.rounded-social-buttons .social-button.instagram {
+	background: #125688;
+}
+.rounded-social-buttons .social-button.instagram:hover,.rounded-social-buttons .social-button.instagram:focus {
+	color: #125688;
+	background: #fefefe;
+	border-color: #125688;
+}
+.navbar-menu>ul {
+	gap: 30px;
+}
+.founderDetails {
+	padding: 3rem;
+}
+.founderName {
+	background-color: #43a724;
+	border-radius: 20px;
+	padding: 15px;
+	height: fit-content;
+}
+.founderName>h3 {
+	line-height: 35px;
+}
+.founder,.cmo {
+	padding: 20px;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+.recentInternships {
+	padding: 3rem;
+}
+.internshipCards {
+	gap: 3rem;
+}
+.underInterneeReviews {
+	width: 65%;
+	padding-bottom: 100px;
+	align-items: center;
+}
+.reviews {
+	padding-bottom: 70px;
+}
+.swiper-pagination {
+	position: relative;
+	margin-top: 80px;
+}
+.js-testimonials-slider .swiper-pagination-bullet {
+	height: 12px;
+	width: 12px;
+	background-color: #8c52fe;
+}
+@media (max-width: 1440px) {
+	.underInterneeReviews {
+		width: 75%;
+	}
+}
+@media (max-width: 1199px) {
+	.myNav>.nav-item:last-child {
+		margin-left: 0 !important;
+	}
+	.navbar-menu>ul {
+		gap: 10px;
+	}
+	.heroSectionElements>h1 {
+		font-size: 50px;
+	}
+	.heroSectionElements {
+		width: 45%;
+	}
+	.founderDetails {
+		padding: 1rem;
+	}
+	nav>div:first-child {
+		padding: 0 1rem;
+	}
+	.internshipDetails {
+		padding: 1rem;
+	}
+	.internshipDetailsRight {
+		background-position: 95% 50%;
+	}
+	.recentInternships {
+		padding: 1rem;
+		margin-top: 50px;
+	}
+	.internshipCards {
+		gap: 2rem;
+	}
+	.interneeReviews {
+		margin-top: 100px !important;
+	}
+	.wrapper .content footer {
+		gap: 0 !important;
+	}
+	.wrapper {
+		width: 35%;
+	}
+	.underInterneeReviews {
+		width: 85%;
+	}
+}
+@media (max-width: 768px) {
+	.heroSectionElements {
+		width: 100%;
+	}
+	.heroSectionElements>h5 {
+		font-size: 16px;
+	}
+	.heroSectionElements>h1 {
+		font-size: 44px;
+	}
+	.heroSectionElements>p {
+		font-size: 18px;
+	}
+	.custom-btn {
+		font-size: 16px;
+	}
+	.heroSection {
+		padding: 70px 0;
+	}
+	.founderDetails {
+		flex-direction: column;
+		margin-top: 3rem !important;
+		gap: 0 !important;
+	}
+	.founder,.cmo {
+		height: 80vh;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 100%;
+		align-items: end;
+	}
+	.founderDetailsMiddle {
+		gap: 30px !important;
+		padding: 40px 0;
+	}
+	.founder {
+		background-image: url('../Images/founder.jpg');
+		border-radius: 2rem 2rem 0 0;
+	}
+	.cmo {
+		background-image: url('../Images/rayyan.jpg');
+		border-radius: 0 0 2rem 2rem;
+		height: 110vh;
+	}
+	.categoryDetailsContainer {
+		flex-wrap: wrap;
+	}
+	.internshipDetailsLeft {
+		border-radius: 2rem 2rem 0 0;
+		padding: 35px !important;
+		gap: 20px !important;
+	}
+	.internshipDetailsLeft h1 {
+		font-size: 30px;
+		line-height: 2.5rem;
+	}
+	.founderDetailsMiddle p {
+		font-size: 18px;
+	}
+	.counterText {
+		font-size: 46px;
+	}
+	.counter-text {
+		font-size: 14px;
+	}
+	.internshipDetailsRight {
+		height: 83vh;
+		border-radius: 0 0 2rem 2rem;
+	}
+	.recentInternships {
+		margin-top: 25px;
+	}
+	.categoryDetails h1,.recentInternships h1 {
+		font-size: 32px;
+	}
+	.recentInternships p {
+		font-size: 18px;
+		width: 100%;
+	}
+	.browseInternshipButton {
+		text-align: left !important;
+		margin-top: 30px !important;
+	}
+	.internshipCard {
+		width: 46% !important;
+	}
+	.interneeReviews {
+		margin-top: 50px !important;
+	}
+	.cta-section {
+		padding: 50px 0;
+	}
+	.wrapper {
+		width: 65%;
+	}
+	#beforeFooter {
+		padding: 50px 20px !important;
+		row-gap: 40px;
+	}
+	.wrapper .content {
+		max-width: 100%;
+		min-width: auto !important;
+	}
+	.underFooter {
+		row-gap: 30px;
+		gap: 30px;
+	}
+	.socialIcons {
+		order: 3;
+	}
+	.underInterneeReviews {
+		width: 65%;
+	}
+	.wrapper .content {
+		padding: 35px;
+	}
+	.wrapper .content footer input {
+		width: 200px;
+		margin-bottom: 10px;
+	}
+	@media (max-width:425px) {
+		.heroSectionElements>h5 {
+			font-size: 14px;
+		}
+		.heroSectionElements>h1 {
+			font-size: 30px;
+		}
+		.heroSectionElements>p {
+			font-size: 13px;
+		}
+		.heroSection {
+			padding: 0px 11px;
+		}
+		.recentInternships p {
+			font-size: 16px;
+		}
+		.internshipCards {
+			justify-content: center;
+		}
+		.internshipCard {
+			width: 75% !important;
+		}
+		.browseInternshipButton {
+			text-align: center !important;
+		}
+		.underInterneeReviews {
+			width: 90%;
+		}
+		.profileIntro>h6 {
+			font-size: 16px !important;
+		}
+		.profileIntro>p {
+			font-size: 14px !important;
+		}
+		.reviewCard {
+			padding: 22px !important;
+			gap: 25px !important;
+		}
+		.rate>label {
+			font-size: 24px;
+		}
+		.reviewText>p {
+			font-size: 18px !important;
+		}
+		.profilePhoto>img {
+			width: 50px;
+			height: 50px;
+			object-fit: cover;
+			object-position: 100% 60%;
+			border-radius: 50%;
+		}
+		.underInterneeReviews{
+			gap: 0 !important;
+		}
+		.beforeFooterText{
+			width: 100%;
+			padding: 0 20px;
+		}
+		.beforeFooterText>p{
+			font-size: 16px;
+			margin-bottom: 0;
+		}
+		.cta-section {
+			padding: 50px 70px 50px 0;
+		}
+		.stickyLogo{
+			display: none !important;
+		}
+		.browseInternshipButton>button{
+			margin-right: 0 !important;
+		}
+		.wrapper {
+			width: 100%;
+		}
+		footer>div:first-child{
+			justify-content: space-between !important;
+		}
+		.wrapper .content {
+			padding: 25px;
+		}
+	}
+	@media (max-width: 320px){
+		footer>div:first-child{
+			justify-content: center !important;
+		}
+		.heroSectionElements>h5 {
+			font-size: 13px;
+		}
+	}
+}

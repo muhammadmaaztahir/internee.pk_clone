@@ -1,0 +1,134 @@
+#heroSectionAbout {
+	background-image: url('../Images/aboutBanner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 80%;
+	position: relative;
+	padding: 0;
+}
+#path{
+	background-color: white;
+	color: rgb(91, 89, 89) !important;
+	font-size: 14px;
+	font-weight: 700;
+	width: fit-content;
+	cursor: auto;
+}
+#path:hover{
+	background-color: white !important;
+}
+#path>span>a{
+	color: #43a724 !important;
+	text-decoration: none;
+}
+.heroSectionElements>h1{
+	font-size: 54px;
+}
+.interneeReviews {
+	margin-top: 0;
+}
+.aboutDetails>a:first-child{
+	color: #8c52fe !important;
+	border: 2px solid rgb(107, 105, 105) !important;
+	padding: 13px !important;
+	font-weight: 500;
+}
+.aboutDetails>a:first-child:hover{
+	background-color: #8c52fe !important;
+	border: 2px solid #8c52fe !important;
+	color: white !important;
+	transition: all 0.5s;
+}
+.aboutDetails>a:nth-child(2){
+	color: rgb(107, 105, 105) !important;
+	font-weight: 500;
+}
+.aboutDetails>a:nth-child(2):hover{
+	background: transparent !important;
+	color: #43a724 !important;
+}
+.underHeroSection{
+	padding: 150px 0;
+}
+.aboutRight{
+	height: 40vh;
+	width: 50%;
+	background-image: url('../Images/group-pic.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+.afterHero{
+	padding: 100px 0;
+}
+.aboutLeft{
+	width: 40%;
+}
+.aboutLeft>p{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(75, 75, 75);
+}
+.aboutContainer{
+	padding: 0 100px;
+	gap: 60px;
+}
+.founderDetailsButtons a:nth-child(2)::after {
+	background: #8c52fe;
+}
+.interneeReviews {
+	margin-top: 0 !important;
+}
+@media (max-width: 1199px){
+	.aboutContainer{
+		padding: 0;
+	}
+}
+@media (max-width: 768px){
+	.aboutContainer{
+		flex-direction: column;
+	}
+	.aboutLeft, .aboutRight{
+		width: 90%;
+	}
+	.afterHero {
+		padding: 70px 0;
+	}
+	.underHeroSection {
+		padding: 100px 0;
+	}
+}
+@media (max-width: 425px){
+	.aboutContainer{
+		flex-direction: column;
+	}
+	.aboutLeft, .aboutRight{
+		width: 90%;
+	}
+	.aboutRight{
+		background-size: cover;
+		background-position: 100% 50%;
+	}
+	.underHeroSection {
+		padding: 40px 0;
+	}
+	.heroSectionElements>h1 {
+		font-size: 40px;
+	}
+	#path {
+		font-size: 12px;
+	}
+	.afterHero {
+		padding: 40px 0;
+	}
+}
+@media (max-width: 375px){
+	.aboutRight{
+		background-position: 90% 50%;
+	}
+}
+@media (max-width: 320px){
+	.aboutRight{
+		background-position: 75% 50%;
+	}
+}
